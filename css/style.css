@@ -1,0 +1,251 @@
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+	background-color: white;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    border-radius: 0px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: darkslategray;
+	opacity: 0.2;
+    border-radius: 2px;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
+
+nav {
+    background-color: rgba(40, 84, 113, 0.91) ;/*rgba(253,253,253,1);*/
+}
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 120px;
+    
+  }
+}
+
+.nav-wrapper a{
+    color: whitesmoke;
+}
+
+.nav-wrapper a:hover{
+    color: gray;
+    background-color: whitesmoke;
+}
+
+.brand-logo{
+    margin-left: 20px;
+}
+
+.fa{
+    font-size: 1.75em;
+    text-align: center;
+    line-height: 2;
+    color: #21638d;
+}
+
+.btn{
+    
+}
+
+.login-btn{
+    margin-top: 8px;
+    margin-right: 20px;  
+    height: 45px;
+    line-height: 3;
+    float: right;
+    border: 2px solid lightgray;
+    border-radius: 0px;
+    background-color: rgba(0,0,0,0);
+}
+
+.btn-flat:hover{
+    background-color:  rgba(40, 84, 113, 0.91);
+}
+
+.brand-logo{
+    font-family: "Courier New", Courier, monospace;
+}
+
+.landing-bg{
+    height: 75%;
+    background-image: url(../images/bg.jpg);
+    background-attachment: fixed;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.mask{
+    padding-top: 150px;
+    height: 100%;
+    background-color: rgba(204,204,204,0.8);
+    text-align: center;
+}
+
+/*typing effect css*/
+
+
+.slogan{
+  color: darkslategray;
+    text-align: center;
+    font-weight: 300;
+  font-size: 45px;
+  margin: auto;
+  width: 60%;
+  white-space: nowrap;
+}
+
+.sub-slogan{
+    color: darkslategray;
+    text-align: center;
+    font-weight: 300;
+  font-size: 25px;
+  margin: auto;
+  width: 60%;
+}
+
+/*
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+*/
+
+.contest-btn{
+    margin: auto;
+    margin-top: 100px;
+    margin-right: 20px;
+    height: 45px;
+    line-height: 3.5;
+    float: none;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 0px;
+    color: whitesmoke;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    text-transform: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 60px;
+    background-color: rgba(46, 51, 54, 0.59);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contest-btn:hover{
+    background-color: rgba(46, 51, 54, 0.4);
+}
+
+.quote{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    height: 70px;
+    width: 90%;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.quote h5{
+    letter-spacing: 0.25;
+    word-spacing: 0.75;
+}
+
+.quote h6{
+    padding-right: 20px;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+.modal{
+    max-height: 85%;
+    overflow-x: hidden;
+}
+
+.modal .modal-content{
+    padding: 0;
+}
+
+.tabs{
+    height: 70px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #21638d;
+    border-bottom: 1px solid rgba(229, 229, 229, 0);
+}
+
+.tabs .tab{
+    height: 70px;
+}
+
+.tabs .tab a{
+    height: 70px;
+    color: whitesmoke;
+    line-height: 5;
+}
+
+.tabs .tab a:hover{
+    color: rgba(46, 51, 54, 0.87);;
+    background-color: #FAFAFA;
+    transition: 300ms;
+}
+
+.tabs .indicator{
+    background-color: lightgrey;
+}
+
+.tabs .active{
+    color: #21638d;
+    background-color: #FAFAFA;
+}
+
+.tabs .tab a.active{
+    color: #21638d;
+}
+
+.modal .modal-footer{
+    margin-top: 40px;
+    padding-top: 9px;
+}
+
+.modal .modal-footer .btn{
+    margin: auto;
+    margin-left: 42%;
+    float: none;
+    border-radius: 0px;
+    color: #333333;
+    background-color: #FAFAFA;
+    border: 2px solid #2E3336;
+}
+
+.modal .modal-footer .btn:hover{
+    color : #FAFAFA;
+    background-color:  rgba(40, 84, 113, 0.91);
+    border: 2px solid #21638d;
+}
+.input-field{
+    margin-top: 0;
+}
+
+i.prefix{
+    line-height: 2;
+}

@@ -1,0 +1,14 @@
+<script>str="uploads/1007/";
+                                document.getElementById("sources").src = str+question[index];</script>
+   
+                        <div class="col s4 offset-s1">
+                            <div class="input-field">
+                                <form method="post"> 
+                              <input id="answer" value = "" type="text" name="answer" required>
+                              <label for="answer">Answer</label>
+                              <button class="btn col s2 offset-s5 ans-btn" formaction = "anscheck.php" type="submit">Submit</button></form>
+                            </div>
+                        </div>
+                        <div class="buttons col s12">
+                        <button class="btn col s2 offset-s1" type="submit" onclick = prev()>Previous</button>
+                        <button class="btn col s2 offset-s1" type="submit" value = "question[index]" onclick = next()>Next</button></div>

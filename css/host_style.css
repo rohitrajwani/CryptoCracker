@@ -1,0 +1,64 @@
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    background-color: white;
+    margin-top: 20px;
+    border: 2px solid lightgrey;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.details h4{
+     margin: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 90%;
+    text-align: center;
+    color: #21638d;
+    border-bottom: 1px solid lightgrey;
+    text-shadow: 1px 1px 1px #6aa3c6;
+}
+
+.details h5{
+    text-align: center;
+    height: 50px;
+    line-height: 2.5;
+    font-size: 2em;
+    color: rgba(46, 51, 54, 0.75);
+}
+
+.input-field{
+    margin-top: 20px;
+}
+
+#description{
+    height: 200px;
+    border: 2px solid lightgrey;
+}
+
+label[for=description],label[for=rules]{
+    margin-left: 5px;
+}
+
+#rules{
+    height: 200px;
+    border: 2px solid lightgrey;
+}
+
+.btn{
+    margin-top: 8px;  
+    line-height: 2.2;
+    border-radius: 0px;
+    color: #212121;
+    background-color: #FAFAFA;
+    border: 2px solid #2E3336;
+    height: 45px;
+}
+
+.btn:hover{
+    color: #FAFAFA;
+    background-color:  rgba(40, 84, 113, 0.91);
+    border: 2px solid rgba(40, 84, 113, 0.91);
+    transition: 300ms; 
+}
